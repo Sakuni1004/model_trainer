@@ -1,0 +1,15 @@
+
+        MODEL PERFORMANCE SUMMARY: MANGOSTEEN SPECIALIZED MODEL
+========================================
+TRAINING SET:
+  R-squared (R²):  0.9813 (98.13%)
+  Correlation (R): 0.9934 (99.34%)
+----------------------------------------
+TEST SET:
+  R-squared (R²):  0.9021 (90.21%)
+  Correlation (R): 0.9603 (96.03%)
+  MAE:             Rs. 27.03 (9.44%)
+  MSE:             (1.9959%)
+  RMSE:            Rs. 40.46 (14.13%)
+  MAPE:            14.58%
+========================================
