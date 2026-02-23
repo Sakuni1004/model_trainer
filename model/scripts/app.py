@@ -48,7 +48,7 @@ with st.expander("ℹ️ About This Application"):
     makes financial planning difficult for local farmers and vendors.
 
     *Technical Setup:*
-    * *Model:* Random Forest Regressor
+    * *Model:* Xgboost
     * *Features:* Climate data and temporal factors
     * *Target:* Average retail price per fruit
     """)
