@@ -6,7 +6,7 @@ import os
 # --- CONFIGURATION ---
 current_dir = os.path.dirname(os.path.abspath(__file__))
 base_dir = os.path.dirname(current_dir)
-MODEL_PATH = os.path.join(base_dir, 'output/mangosteen_analysis/mangosteen_specialized_model.pkl')
+MODEL_PATH = os.path.join(base_dir, 'output', 'mangosteen_analysis', 'mangosteen_xgb_model.pkl')
 
 # --- PAGE SETTINGS ---
 st.set_page_config(page_title="Mangosteen Price Predictor", layout="wide")
@@ -42,15 +42,15 @@ st.markdown("Predict Mangosteen prices in Sri Lanka using AI with environmental 
 
 with st.expander("ℹ️ About This Application"):
     st.write("""
-    **What is this?**
+    *What is this?*
     This project predicts retail prices for Mangosteens in Sri Lanka. 
     Agricultural price volatility, driven by seasonal harvest cycles and environmental changes, 
     makes financial planning difficult for local farmers and vendors.
 
-    **Technical Setup:**
-    * **Model:** Random Forest Regressor
-    * **Features:** Climate data and temporal factors
-    * **Target:** Average retail price per fruit
+    *Technical Setup:*
+    * *Model:* Random Forest Regressor
+    * *Features:* Climate data and temporal factors
+    * *Target:* Average retail price per fruit
     """)
 
 if model:
